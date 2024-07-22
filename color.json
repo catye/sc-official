@@ -1371,31 +1371,51 @@
   },
   "sc-official-color": {
     "name": "sc-official-color",
+    "bg": {
+      "container": {
+        "name": "bg/container",
+        "description": "",
+        "value": "{sc-official-color.white}",
+        "type": "color"
+      },
+      "bg": {
+        "name": "bg/bg",
+        "description": "",
+        "value": "#e9f1ff",
+        "type": "color"
+      },
+      "btn": {
+        "default": {
+          "name": "bg/btn/default",
+          "description": "",
+          "value": "{sc-official-color.brand}",
+          "type": "color"
+        },
+        "hover": {
+          "name": "bg/btn/hover",
+          "description": "",
+          "value": "{sc-official-color.blue.6}",
+          "type": "color"
+        },
+        "pressed": {
+          "name": "bg/btn/pressed",
+          "description": "",
+          "value": "{sc-official-color.blue.8}",
+          "type": "color"
+        },
+        "disabled": {
+          "name": "bg/btn/disabled",
+          "description": "",
+          "value": "{sc-official-color.coldgrey.4}",
+          "type": "color"
+        }
+      }
+    },
     "brand": {
       "name": "brand",
       "description": "",
       "value": "{sc-official-color.brand}",
       "type": "color"
-    },
-    "bg": {
-      "1": {
-        "name": "bg/1",
-        "description": "",
-        "value": "#e9f1ff",
-        "type": "color"
-      },
-      "2": {
-        "name": "bg/2",
-        "description": "",
-        "value": "#e0ebfd",
-        "type": "color"
-      },
-      "3": {
-        "name": "bg/3",
-        "description": "",
-        "value": "#d8e5fb",
-        "type": "color"
-      }
     },
     "text": {
       "primary": {
@@ -1423,10 +1443,30 @@
         "type": "color"
       },
       "interactive": {
-        "name": "text/interactive",
-        "description": "",
-        "value": "{sc-official-color.brand}",
-        "type": "color"
+        "default": {
+          "name": "text/interactive/default",
+          "description": "",
+          "value": "{sc-official-color.brand}",
+          "type": "color"
+        },
+        "hover": {
+          "name": "text/interactive/hover",
+          "description": "",
+          "value": "{sc-official-color.blue.6}",
+          "type": "color"
+        },
+        "pressed": {
+          "name": "text/interactive/pressed",
+          "description": "",
+          "value": "{sc-official-color.blue.8}",
+          "type": "color"
+        },
+        "disabled": {
+          "name": "text/interactive/disabled",
+          "description": "",
+          "value": "{sc-official-color.coldgrey.3}",
+          "type": "color"
+        }
       }
     },
     "border": {
@@ -1434,6 +1474,20 @@
         "name": "border/line",
         "description": "",
         "value": "#d2e3f8",
+        "type": "color"
+      }
+    },
+    "icon": {
+      "default": {
+        "name": "icon/default",
+        "description": "",
+        "value": "{sc-official-color.coldgrey.6}",
+        "type": "color"
+      },
+      "hover": {
+        "name": "icon/hover",
+        "description": "",
+        "value": "{sc-official-color.brand}",
         "type": "color"
       }
     }
