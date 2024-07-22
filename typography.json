@@ -322,6 +322,10 @@
         "value": "{font-size-1920.small}/{font-size-ratio-1920}",
         "type": "fontSizes"
       }
+    },
+    "Yahei": {
+      "value": "Microsoft YaHei",
+      "type": "fontFamilies"
     }
   },
   "$themes": [],
