@@ -120,7 +120,7 @@
       "value": {
         "fontSize": "{font-size-1440.body}",
         "lineHeight": "{line-height.body}",
-        "fontFamily": "{SF}",
+        "fontFamily": "{font-family.SF}",
         "fontWeight": "{font-weight.regular}"
       },
       "type": "typography"
@@ -129,7 +129,7 @@
       "value": {
         "fontSize": "{font-size-1440.small}",
         "lineHeight": "{line-height.small}",
-        "fontFamily": "{SF}",
+        "fontFamily": "{font-family.SF}",
         "fontWeight": "{font-weight.regular}"
       },
       "type": "typography"
@@ -138,7 +138,7 @@
       "value": {
         "fontSize": "{font-size-1440.smaller}",
         "lineHeight": "{line-height.smaller}",
-        "fontFamily": "{SF}",
+        "fontFamily": "{font-family.SF}",
         "fontWeight": "{font-weight.regular}"
       },
       "type": "typography"
@@ -147,7 +147,7 @@
       "value": {
         "fontSize": "{font-size-1440.h6}",
         "lineHeight": "{line-height.h6}",
-        "fontFamily": "{SF}",
+        "fontFamily": "{font-family.SF}",
         "fontWeight": "{font-weight.semibold}"
       },
       "type": "typography"
@@ -156,7 +156,7 @@
       "value": {
         "fontSize": "{font-size-1440.h5}",
         "lineHeight": "{line-height.h5}",
-        "fontFamily": "{SF}",
+        "fontFamily": "{font-family.SF}",
         "fontWeight": "{font-weight.semibold}"
       },
       "type": "typography"
@@ -165,7 +165,7 @@
       "value": {
         "fontSize": "{font-size-1440.h4}",
         "lineHeight": "{line-height.h4}",
-        "fontFamily": "{SF}",
+        "fontFamily": "{font-family.SF}",
         "fontWeight": "{font-weight.semibold}"
       },
       "type": "typography"
@@ -174,7 +174,7 @@
       "value": {
         "fontSize": "{font-size-1440.h3}",
         "lineHeight": "{line-height.h3}",
-        "fontFamily": "{SF}",
+        "fontFamily": "{font-family.SF}",
         "fontWeight": "{font-weight.semibold}"
       },
       "type": "typography"
@@ -183,7 +183,7 @@
       "value": {
         "fontSize": "{font-size-1440.h2}",
         "lineHeight": "{line-height.h2}",
-        "fontFamily": "{SF}",
+        "fontFamily": "{font-family.SF}",
         "fontWeight": "{font-weight.semibold}"
       },
       "type": "typography"
@@ -192,14 +192,20 @@
       "value": {
         "fontSize": "{font-size-1440.h1}",
         "lineHeight": "{line-height.h1}",
-        "fontFamily": "{SF}",
+        "fontFamily": "{font-family.SF}",
         "fontWeight": "{font-weight.bold}"
       },
       "type": "typography"
     },
-    "SF": {
-      "value": "PingFang SC",
-      "type": "fontFamilies"
+    "font-family": {
+      "SF": {
+        "value": "PingFang SC",
+        "type": "fontFamilies"
+      },
+      "Yahei": {
+        "value": "Microsoft YaHei",
+        "type": "fontFamilies"
+      }
     },
     "font-weight": {
       "regular": {
@@ -322,10 +328,6 @@
         "value": "{font-size-1920.small}/{font-size-ratio-1920}",
         "type": "fontSizes"
       }
-    },
-    "Yahei": {
-      "value": "Microsoft YaHei",
-      "type": "fontFamilies"
     }
   },
   "$themes": [],
