@@ -43,7 +43,7 @@
       "type": "other"
     },
     "font-size-ratio-1920": {
-      "value": "{font-scale.perfect-fourth}",
+      "value": "{font-size-ratio-1440}",
       "type": "other"
     },
     "font-scale": {
@@ -293,7 +293,7 @@
     },
     "font-size-1920": {
       "body": {
-        "value": "14",
+        "value": "16",
         "type": "fontSizes"
       },
       "h6": {
