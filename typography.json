@@ -43,7 +43,7 @@
       "type": "other"
     },
     "font-size-ratio-1920": {
-      "value": "{font-size-ratio-1440}",
+      "value": "{font-scale.major-third}",
       "type": "other"
     },
     "font-scale": {
