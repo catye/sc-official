@@ -30,7 +30,7 @@
         "type": "fontSizes"
       },
       "small": {
-        "value": "{font-size-1440.body}/{font-size-ratio-1440}",
+        "value": "12",
         "type": "fontSizes"
       },
       "smaller": {
